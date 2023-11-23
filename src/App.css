@@ -5,15 +5,3 @@
   background-position: top 5.5rem right 0;
   min-height: 200rem;
 }
-
-h1,
-h2,
-h3,
-p,
-figure {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
