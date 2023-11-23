@@ -10,7 +10,7 @@ export const Header: React.FC<unknown> = () => {
         <Logo />
         <section className={styles.rightColumn}>
           <div className={styles.events}>
-            <div className={styles.selected}>Next event</div>
+            <div className={styles.selected}>Next Event</div>
             <div>Upcoming events</div>
           </div>
           <Button type="primary">Jobs</Button>

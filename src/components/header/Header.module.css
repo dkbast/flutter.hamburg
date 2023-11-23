@@ -22,6 +22,7 @@ header {
 }
 
 .events {
+  color: #717d96;
   height: 100%;
   display: flex;
   gap: 2rem;
@@ -35,6 +36,7 @@ header {
 }
 
 .selected {
+  color: #2d3648;
   font-weight: 700;
   border-bottom: 3px solid #00d5ff;
 }
