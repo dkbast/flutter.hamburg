@@ -19,10 +19,10 @@ export const EventBox: React.FC<unknown> = () => {
             <img src={externalLinkIcon} alt="external link"></img>
         </a>
       </section>
-      <div className={styles.calendarIcon}>
+      <figure className={styles.calendarIcon}>
         <div className={styles.month}>NOV</div>
         <div className={styles.day}>20</div>
-      </div>
+      </figure>
     </div>
   );
 };
