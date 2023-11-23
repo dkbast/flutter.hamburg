@@ -13,9 +13,9 @@ export const Main: React.FC<unknown> = () => {
           Germany, we have a big meetup every 2-3 months, a monthly (mostly)
           german speaking "Stammtisch" and a weekly Flutter lunch.
         </p>
+        <EventBox />
+        <div className={styles.gradient} />
       </section>
-      <EventBox />
-      <div className={styles.gradient} />
     </main>
   );
 };
