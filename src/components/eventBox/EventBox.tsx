@@ -13,10 +13,10 @@ export const EventBox: React.FC<unknown> = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div className={styles.status}>Free</div>
-        <a href={""} className={styles.location}>
-            <img src={locationIcon}></img>
+        <a href="/" className={styles.location}>
+            <img src={locationIcon} alt="location"></img>
             Netlight Consulting GmbH, Große Bleichen 23-27
-            <img src={externalLinkIcon}></img>
+            <img src={externalLinkIcon} alt="external link"></img>
         </a>
       </section>
       <div className={styles.calendarIcon}>
