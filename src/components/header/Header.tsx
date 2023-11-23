@@ -7,7 +7,9 @@ export const Header: React.FC<unknown> = () => {
   return (
     <div className={styles.wrapper}>
       <header>
-        <Logo />
+        <a href="/">
+          <Logo />
+        </a>
         <section className={styles.rightColumn}>
           <div className={styles.events}>
             <div className={styles.selected}>Next Event</div>
