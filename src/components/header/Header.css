@@ -1,0 +1,40 @@
+.wrapper {
+  overflow: hidden; /* to cut off box-shadow */
+  padding-bottom: 1.5rem;
+}
+
+header {
+  height: 5.5rem;
+  padding: 0 6.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
+}
+
+.rightColumn {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  gap: 6.5rem;
+}
+
+.events {
+  height: 100%;
+  display: flex;
+  gap: 2rem;
+}
+
+.events > div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.selected {
+  font-weight: 700;
+  border-bottom: 3px solid #00d5ff;
+}
