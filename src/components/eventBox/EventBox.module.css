@@ -1,0 +1,54 @@
+.eventBox {
+  position: absolute;
+  z-index: 1;
+  width: 37rem;
+  height: 11rem;
+  margin-top: 6rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 1.25rem;
+  box-shadow: 22px 11px 20px 0 rgba(0, 0, 0, 0.06);
+  opacity: 0.95;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eventBox section {
+  width: 29rem;
+}
+
+.eventBox h3 {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.eventBox p {
+  line-height: 1.5rem;
+}
+
+.calendarIcon {
+  width: 6.875rem;
+  height: 6.875rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0.625rem;
+  background: linear-gradient(181deg, #5addfb -17.29%, #4957ff 179.66%);
+}
+
+.calendarIcon .month {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.calendarIcon .day {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+}

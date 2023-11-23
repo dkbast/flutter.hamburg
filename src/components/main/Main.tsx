@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./Main.module.css";
+import { EventBox } from "../eventBox/EventBox";
 
 export const Main: React.FC<unknown> = () => {
   return (
     <main>
-      <section className="top-section">
+      <section className={styles.topSection}>
         <h1 className={styles.header1}>Flutter</h1>
         <h2 className={styles.header2}>in Hamburg</h2>
         <p className={styles.desc}>
@@ -13,6 +14,8 @@ export const Main: React.FC<unknown> = () => {
           german speaking "Stammtisch" and a weekly Flutter lunch.
         </p>
       </section>
+      <EventBox />
+      <div className={styles.gradient} />
     </main>
   );
 };

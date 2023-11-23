@@ -2,6 +2,10 @@ main {
   padding: 5rem 6.5rem 6.5rem 6.5rem; /* drop-shadow padding is 1.5rem */
 }
 
+.topSection {
+  position: relative;
+}
+
 .header1 {
   width: 15.5rem;
   height: 5.125rem;
@@ -27,4 +31,13 @@ main {
   width: 30rem;
   font-size: 1.125rem;
   line-height: 1.875rem;
+}
+
+.gradient {
+  width: 24.5rem;
+  height: 32rem;
+  transform: rotate(-112deg);
+  filter: blur(105px);
+  background: linear-gradient(98deg, #02b5ed 0%, #7f60f9 100%);
+  opacity: 0.2;
 }
