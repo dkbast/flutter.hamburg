@@ -1,20 +1,20 @@
 import React from "react";
 import { Button } from "antd";
 import { ReactComponent as Logo } from "./logo.svg";
-import "./Header.css";
+import styles from "./Header.module.css";
 
 export const Header: React.FC<unknown> = () => {
   return (
-    <div className="wrapper">
+    <div className={styles.wrapper}>
       <header>
         <Logo />
-        <div className="rightColumn">
-          <div className="events">
-            <div className="selected">Next event</div>
+        <section className={styles.rightColumn}>
+          <div className={styles.events}>
+            <div className={styles.selected}>Next event</div>
             <div>Upcoming events</div>
           </div>
           <Button type="primary">Jobs</Button>
-        </div>
+        </section>
       </header>
     </div>
   );
