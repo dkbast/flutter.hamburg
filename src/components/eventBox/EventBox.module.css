@@ -1,3 +1,5 @@
+@import '../../vars.css';
+
 .eventBox {
   position: absolute;
   z-index: 1;
@@ -27,6 +29,24 @@
 
 .eventBox p {
   line-height: 1.5rem;
+}
+
+.eventBox .status {
+  width: 3rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.125rem;
+  background: #F5F5F5;
+  margin: 1rem 0;
+}
+
+.eventBox .location {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  color: var(--color-6)
 }
 
 .calendarIcon {
