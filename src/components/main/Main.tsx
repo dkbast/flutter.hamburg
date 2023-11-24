@@ -5,7 +5,8 @@ import { EventBox } from "../eventBox/EventBox";
 export const Main: React.FC<unknown> = () => {
   return (
     <main>
-      <section className={styles.topSection}>
+      <section className={`${styles.topSection} topSection`}>
+        <EventBox />
         <h1 className={styles.header1}>Flutter</h1>
         <h2 className={styles.header2}>in Hamburg</h2>
         <p className={styles.desc}>
@@ -13,8 +14,7 @@ export const Main: React.FC<unknown> = () => {
           Germany, we have a big meetup every 2-3 months, a monthly (mostly)
           german speaking "Stammtisch" and a weekly Flutter lunch.
         </p>
-        <EventBox />
-        <div className={styles.gradient} />
+        <div className={`${styles.gradient} gradient`} />
       </section>
     </main>
   );

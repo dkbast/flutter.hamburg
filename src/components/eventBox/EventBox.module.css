@@ -1,22 +1,29 @@
-@import '../../vars.css';
+@import "../../vars.css";
 
 .eventBox {
   position: absolute;
   z-index: 1;
-  width: 37rem;
-  height: 11rem;
-  margin-top: 6rem;
+  width: 41rem;
+  height: 15rem;
+  margin-top: 26rem;
   padding: 2rem;
   background: white;
   border-radius: 1.25rem;
+  box-sizing: border-box;
   box-shadow: 22px 11px 20px 0 rgba(0, 0, 0, 0.06);
   opacity: 0.95;
+  display: flex;
+  flex-direction: column;
+}
+
+.eventBox .topRow {
   display: flex;
   justify-content: space-between;
 }
 
 .eventBox section {
-  width: 29rem;
+  width: 27rem;
+  padding-right: 1rem;
 }
 
 .eventBox h3 {
@@ -29,6 +36,7 @@
 
 .eventBox p {
   line-height: 1.5rem;
+  font-weight: 400;
 }
 
 .eventBox .status {
@@ -38,15 +46,15 @@
   justify-content: center;
   align-items: center;
   border-radius: 0.125rem;
-  background: #F5F5F5;
+  background: #f5f5f5;
   margin: 1rem 0;
 }
 
 .eventBox .location {
   display: flex;
   align-items: center;
-  gap: .5rem;
-  color: var(--color-6)
+  gap: 0.5rem;
+  color: var(--color-6);
 }
 
 .calendarIcon {

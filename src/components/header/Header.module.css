@@ -9,6 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: white;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -39,4 +40,8 @@ header {
   color: #2d3648;
   font-weight: 700;
   border-bottom: 3px solid #00d5ff;
+}
+
+.burgerMenu {
+  display: none;
 }
