@@ -12,9 +12,30 @@ body {
 h1,
 h2,
 h3,
+h4,
 p,
 figure {
   margin: 0;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+}
+
+h3 {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  font-size: 2.125rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #595959;
+  margin-bottom: 1rem;
 }
 
 a {

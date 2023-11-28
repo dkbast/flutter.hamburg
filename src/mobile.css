@@ -30,6 +30,7 @@
   main .topSection > p {
     width: 100%;
     text-align: center;
+    margin-bottom: 15rem;
   }
   main .topSection .gradient {
     margin-top: -40rem;
@@ -38,5 +39,9 @@
     margin-top: 25rem !important;
     width: 100% !important;
     height: auto !important;
+  }
+  main .contentSection {
+    flex-direction: column;
+    padding: 0 2rem;
   }
 }

@@ -29,8 +29,6 @@ main {
 .desc {
   margin-top: 1.7rem;
   width: 30rem;
-  font-size: 1.125rem;
-  line-height: 1.875rem;
 }
 
 .gradient {
@@ -40,4 +38,23 @@ main {
   filter: blur(105px);
   background: linear-gradient(98deg, #02b5ed 0%, #7f60f9 100%);
   opacity: 0.2;
+}
+
+.contentSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.contentSection .leftColumn {
+  max-width: 43rem;
+}
+
+.contentSection p {
+  margin-top: 1.5rem;
+}
+
+.contentSection .rightColumn {
+  width: 24rem;
+  margin-top: 2.125rem;
 }
