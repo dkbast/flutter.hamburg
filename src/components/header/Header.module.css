@@ -4,8 +4,8 @@
 }
 
 header {
-  height: 5.5rem;
-  padding: 0 6.5rem;
+  height: 7.5rem;
+  padding: 0 8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,16 +17,16 @@ header {
   display: flex;
   align-items: center;
   height: 100%;
-  font-size: 1rem;
+  font-size: 1.33333rem;
   font-weight: 600;
-  gap: 6.5rem;
+  gap: 8rem;
 }
 
 .events {
   color: #717d96;
   height: 100%;
   display: flex;
-  gap: 2rem;
+  gap: 2.66rem;
 }
 
 .events > div {
