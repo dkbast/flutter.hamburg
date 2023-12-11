@@ -11,40 +11,38 @@ header {
   align-items: center;
   background: white;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
+}
+header a {
+  display: flex;
+  align-items: center;
+}
 
-  & a {
-    display: flex;
-    align-items: center;
-  }
+.rightColumn {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 1.33333rem;
+  font-weight: 600;
+  gap: 8rem;
+}
+.rightColumn .events {
+  color: #717d96;
+  height: 100%;
+  display: flex;
+  gap: 2.66rem;
+}
+.rightColumn .events > div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+}
+.rightColumn .events > div.selected {
+  color: #2d3648;
+  font-weight: 700;
+  border-bottom: 3px solid #00d5ff;
+}
 
-  .rightColumn {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    font-size: 1.33333rem;
-    font-weight: 600;
-    gap: 8rem;
-
-    & .events {
-      color: #717d96;
-      height: 100%;
-      display: flex;
-      gap: 2.66rem;
-
-      & > div {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        box-sizing: border-box;
-      }
-      & > div.selected {
-        color: #2d3648;
-        font-weight: 700;
-        border-bottom: 3px solid #00d5ff;
-      }
-    }
-  }
-  & .burgerMenu {
-    display: none;
-  }
+header .burgerMenu {
+  display: none;
 }
