@@ -19,7 +19,7 @@
     align-items: baseline !important;
   }
 
-  header section .headerEvents,
+  header section .events,
   header section button {
     display: none !important;
   }
@@ -55,7 +55,7 @@
   main .topSection .gradient {
     margin-top: -40rem;
   }
-  main .eventbox {
+  main .eventBox {
     margin-top: 25rem !important;
     width: 100% !important;
     height: auto !important;

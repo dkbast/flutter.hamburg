@@ -1,4 +1,4 @@
-@import "../../vars.css";
+@import "vars.css";
 
 .eventBox {
   position: absolute;
@@ -50,7 +50,7 @@
   color: var(--color-6);
 }
 
-.calendarIcon {
+.eventBox figure {
   width: 9rem;
   height: 9rem;
   aspect-ratio: 1;
@@ -64,12 +64,12 @@
   background: linear-gradient(181deg, #5addfb -17.29%, #4957ff 179.66%);
 }
 
-.calendarIcon .month {
+.eventBox figure .month {
   color: white;
   font-size: 2rem;
 }
 
-.calendarIcon .day {
+.eventBox figure .day {
   color: white;
   font-size: 4rem;
   font-weight: 700;

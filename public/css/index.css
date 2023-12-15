@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap");
+@import "app.css";
+@import "header.css";
+@import "main.css";
+@import "eventBox.css";
+@import "mobile.css";
 
 html {
-  font-size: 12px; /* 12px = 1rem, 1 column = 8rem */
+  font-size: 12px; /* 16 col layout: 12px = 1rem, 1 column = 8rem */
 }
 
 body {
