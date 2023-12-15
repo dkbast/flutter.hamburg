@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Hamburg Meet-Up",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+    "isFeatured": true,
+    "status": "Free",
+    "location": "Netlight Consulting GmbH, Große Bleichen 23-27",
+    "link": "https://example.com",
+    "month": "DEZ",
+    "day": "30"
+  }
+]

@@ -1,13 +1,13 @@
 .eventBox
     .topRow
         section
-            h3 Hamburg Meet-Up
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
-            .status Free
+            h3 #{featured.title}
+            p #{featured.description}
+            .status #{featured.status}
         figure
-            .month NOV
-            .day 20
-    a.location
+            .month #{featured.month}
+            .day #{featured.day}
+    a.location(href=`${featured.link}`)
         img(src="/images/location.svg")
-        Netlight Consulting GmbH, Große Bleichen 23-27
+        span #{featured.location}
         img(src="/images/external.svg")
