@@ -1,7 +1,12 @@
 [
   {
-    "title": "Hamburg Meet-Up",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+    "title": "Flutter Hamburg 2023/12 - Glögg Special",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+    "description": [
+      "Our goal is to connect people who love to build great software with Flutter/Dart, people who want to exchange about their learnings and failures, about best practices and about strategies to adapt disciplines like Domain Driven Design, Service Oriented Architecture and more.Get togethers, talks, hacking - everything is possible ;-)",
+      "Flutter + Glögg has proven to be a wonderful combination and we are able to host another event like this!",
+      "We have two amazing speakers for this event: Ole from Netlight and Sylvia who is a Flutter Google Developer Expert visiting us from Cape Town, South Africa! Don’t miss it!"
+    ],
     "isFeatured": true,
     "status": "Free",
     "location": "Netlight Consulting GmbH, Große Bleichen 23-27",

@@ -8,10 +8,9 @@ main
     section.contentSection
         .leftColumn
             h4 ABOUT THE EVENT
-            h3 Flutter Hamburg 2023/12 - Glögg Special
-            p Our goal is to connect people who love to build great software with Flutter/Dart, people who want to exchange about their learnings and failures, about best practices and about strategies to adapt disciplines like Domain Driven Design, Service Oriented Architecture and more.Get togethers, talks, hacking - everything is possible ;-)
-            p Flutter + Glögg has proven to be a wonderful combination and we are able to host another event like this!
-            p We have two amazing speakers for this event: Ole from Netlight and Sylvia who is a Flutter Google Developer Expert visiting us from Cape Town, South Africa! Don’t miss it!
+            h3 #{featured.title}
+            each paragraph in featured.description
+                p #{paragraph}
         .rightColumn
             h3 Tags
             p Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
