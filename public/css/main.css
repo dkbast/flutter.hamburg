@@ -63,11 +63,7 @@ main .contentSection .rightColumn {
   gap: 4rem;
 }
 
-main .contentSection .rightColumn .hours h5 {
-  font-weight: 500;
-}
-
-main .contentSection .rightColumn .hours p {
-  font-weight: 600;
-  font-size: 1.66666rem;
+main .contentSection .rightColumn .networks {
+  display: flex;
+  gap: 1.66rem;
 }
