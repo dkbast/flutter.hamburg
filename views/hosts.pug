@@ -1,0 +1,10 @@
+.hosts
+    h5 Hosts(#{featured.hosts.length})
+    ul
+        each host in featured.hosts
+            li
+                img(src=`/images/hosts/${host.image}` alt=host.name)
+                .label Host
+                .name #{host.name}
+                .role #{host.role}
+

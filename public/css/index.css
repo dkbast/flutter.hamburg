@@ -3,6 +3,7 @@
 @import "header.css";
 @import "main.css";
 @import "eventBox.css";
+@import "hosts.css";
 @import "mobile.css";
 
 html {
@@ -23,8 +24,10 @@ h2,
 h3,
 h4,
 p,
+ul,
 figure {
   margin: 0;
+  padding: 0;
 }
 
 p {
@@ -51,6 +54,12 @@ h4 {
   font-weight: 500;
   color: #595959;
   margin-bottom: 1.33333rem;
+}
+
+h5 {
+  font-size: 1.66666rem;
+  font-weight: 600;
+  line-height: 1.33333rem;
 }
 
 a {

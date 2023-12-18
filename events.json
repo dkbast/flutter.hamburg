@@ -12,6 +12,23 @@
     "location": "Netlight Consulting GmbH, Große Bleichen 23-27",
     "link": "https://example.com",
     "month": "DEZ",
-    "day": "30"
+    "day": "30",
+    "hosts": [
+      {
+        "name": "Damian",
+        "role": "co-organizer",
+        "image": "damian.png"
+      },
+      {
+        "name": "René",
+        "role": "organizer",
+        "image": "rene.png"
+      },
+      {
+        "name": "Grigori",
+        "role": "organizer",
+        "image": "grigori.png"
+      }
+    ]
   }
 ]
