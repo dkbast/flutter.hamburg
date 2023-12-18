@@ -29,6 +29,15 @@
         "role": "organizer",
         "image": "grigori.png"
       }
+    ],
+    "tags": [
+      "Android",
+      "iOS",
+      "Google Cloud",
+      "Firebase",
+      "Flutter",
+      "Mobile Development",
+      "Networking"
     ]
   }
 ]

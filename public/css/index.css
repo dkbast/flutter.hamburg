@@ -4,6 +4,7 @@
 @import "main.css";
 @import "eventBox.css";
 @import "hosts.css";
+@import "tags.css";
 @import "mobile.css";
 
 html {
@@ -28,6 +29,10 @@ ul,
 figure {
   margin: 0;
   padding: 0;
+}
+
+ul {
+  list-style: none;
 }
 
 p {
