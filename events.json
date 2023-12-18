@@ -40,5 +40,33 @@
       "Mobile Development",
       "Networking"
     ]
+  },
+  {
+    "summary": "Lorem ipsum dolor sit amet, consectet for bar et.",
+    "date": "2023-12-01T18:00:00Z",
+    "month": "DEZ",
+    "day": "01",
+    "isFeatured": false
+  },
+  {
+    "summary": "Forem parum ipsum dolor sit amet, consectet for bar et.",
+    "date": "2023-10-12T19:00:00Z",
+    "month": "OCT",
+    "day": "12",
+    "isFeatured": false
+  },
+  {
+    "summary": "Salum parum ipsum dolor sit amet, consectet for bar et.",
+    "date": "2023-08-17T20:30:00Z",
+    "month": "AUG",
+    "day": "17",
+    "isFeatured": false
+  },
+  {
+    "summary": "Tarum parum ipsum dolor sit amet, consectet for bar et.",
+    "date": "2023-05-11T90:30:00Z",
+    "month": "MAY",
+    "day": "11",
+    "isFeatured": false
   }
 ]

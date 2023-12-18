@@ -1,10 +1,12 @@
 main {
-  padding: 6.5rem 8rem 8rem 8rem; /* drop-shadow padding is 1.5rem */
+  padding: 6.5rem 0 8rem 0; /* drop-shadow padding is 1.5rem */
+  overflow: hidden;
 }
 
 main .topSection {
   position: relative;
   min-height: 70rem;
+  margin: 0 8rem;
 }
 
 main .topSection h1 {
@@ -45,6 +47,7 @@ main .contentSection {
   display: flex;
   justify-content: space-between;
   gap: 3rem;
+  margin: 0 8rem;
 }
 
 main .contentSection .leftColumn {

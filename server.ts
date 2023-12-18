@@ -7,9 +7,10 @@ app.set("view engine", "pug");
 app.use(express.static("public"));
 
 const featured = events.find((e) => e.isFeatured);
+const other = events.filter((e) => !e.isFeatured);
 
 app.get("/", (req, res) => {
-  res.render("index", { featured });
+  res.render("index", { featured, other });
 });
 
 app.listen(port, () => {

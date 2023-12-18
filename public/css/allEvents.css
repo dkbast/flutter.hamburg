@@ -1,0 +1,73 @@
+@import "vars.css";
+
+.allEventsSection {
+  background: #f8f8fa;
+  padding: 4rem 0 7rem 24rem;
+  margin-top: 8rem;
+  width: 200%;
+}
+
+.allEventsSection ul {
+  display: flex;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+.allEventsSection li {
+  background: white;
+  border-radius: 0.66666rem;
+  width: 29rem;
+  height: 32rem;
+}
+
+.allEventsSection li.past img {
+  opacity: 0.5;
+}
+
+.allEventsSection .info {
+  display: flex;
+}
+
+.allEventsSection .info figure {
+  width: 9rem;
+  height: 9rem;
+  aspect-ratio: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0.833rem;
+}
+
+.allEventsSection .info figure .month {
+  font-size: 1.16666rem;
+  line-height: 1.75rem;
+  margin-top: 1rem;
+}
+
+.allEventsSection .info figure .day {
+  font-size: 2.33333rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+
+.allEventsSection .info .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 2rem;
+}
+
+.allEventsSection .info .description h5 {
+  line-height: 2.5rem;
+}
+
+.allEventsSection .info .description p {
+  font-size: 1.16666rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+  color: var(--color-dark-grey);
+}
