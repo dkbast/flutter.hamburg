@@ -13,6 +13,7 @@
     "link": "https://example.com",
     "month": "DEZ",
     "day": "30",
+    "hours": "18:00 PM - 20:00 PM CET",
     "hosts": [
       {
         "name": "Damian",

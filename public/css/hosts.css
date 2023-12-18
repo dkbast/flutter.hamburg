@@ -2,6 +2,10 @@
   margin-top: 5rem;
 }
 
+.hosts h5 {
+  margin-bottom: 2rem;
+}
+
 .hosts ul {
   display: flex;
   gap: 5rem;
