@@ -20,7 +20,7 @@
   height: 32rem;
 }
 
-.allEventsSection li.past img {
+.allEventsSection li.inThePast {
   opacity: 0.5;
 }
 
@@ -45,6 +45,7 @@
   font-size: 1.16666rem;
   line-height: 1.75rem;
   margin-top: 1rem;
+  text-transform: uppercase;
 }
 
 .allEventsSection .info figure .day {

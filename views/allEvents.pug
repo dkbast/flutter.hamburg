@@ -1,7 +1,7 @@
 h3 All events
 ul
    each event in other
-        li
+        li(class=event.inThePast ? "inThePast": "")
             img(src="/images/events/event1.png")
             .info
                 figure

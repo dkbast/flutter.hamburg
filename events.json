@@ -11,9 +11,8 @@
     "status": "Free",
     "location": "Netlight Consulting GmbH, Große Bleichen 23-27",
     "link": "https://example.com",
-    "month": "DEZ",
-    "day": "30",
-    "hours": "18:00 PM - 20:00 PM CET",
+    "startDateISO": "2023-12-29T18:00:00Z",
+    "endDateISO": "2023-12-29T20:00:00Z",
     "hosts": [
       {
         "name": "Damian",
@@ -42,31 +41,55 @@
     ]
   },
   {
-    "summary": "Lorem ipsum dolor sit amet, consectet for bar et.",
-    "date": "2023-12-01T18:00:00Z",
-    "month": "DEZ",
-    "day": "01",
-    "isFeatured": false
-  },
-  {
+    "title": "",
     "summary": "Forem parum ipsum dolor sit amet, consectet for bar et.",
-    "date": "2023-10-12T19:00:00Z",
-    "month": "OCT",
-    "day": "12",
-    "isFeatured": false
+    "description": [],
+    "isFeatured": false,
+    "status": "Free",
+    "location": "",
+    "link": "/",
+    "startDateISO": "2023-10-12T09:00:00Z",
+    "endDateISO": "2023-10-12T11:00:00Z",
+    "hosts": [],
+    "tags": []
   },
   {
+    "title": "",
+    "summary": "Lorem ipsum dolor sit amet, consectet for bar et.",
+    "description": [],
+    "isFeatured": false,
+    "status": "Free",
+    "location": "",
+    "link": "/",
+    "startDateISO": "2024-01-21T15:00:00Z",
+    "endDateISO": "2024-01-21T18:00:00Z",
+    "hosts": [],
+    "tags": []
+  },
+  {
+    "title": "",
     "summary": "Salum parum ipsum dolor sit amet, consectet for bar et.",
-    "date": "2023-08-17T20:30:00Z",
-    "month": "AUG",
-    "day": "17",
-    "isFeatured": false
+    "description": [],
+    "isFeatured": false,
+    "status": "Free",
+    "location": "",
+    "link": "/",
+    "startDateISO": "2023-08-17T17:30:00Z",
+    "endDateISO": "2023-08-17T20:30:00Z",
+    "hosts": [],
+    "tags": []
   },
   {
+    "title": "",
     "summary": "Tarum parum ipsum dolor sit amet, consectet for bar et.",
-    "date": "2023-05-11T90:30:00Z",
-    "month": "MAY",
-    "day": "11",
-    "isFeatured": false
+    "description": [],
+    "isFeatured": false,
+    "status": "Free",
+    "location": "",
+    "link": "/",
+    "startDateISO": "2023-05-11T20:30:00Z",
+    "endDateISO": "2023-05-11T22:30:00Z",
+    "hosts": [],
+    "tags": []
   }
 ]

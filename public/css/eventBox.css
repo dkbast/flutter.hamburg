@@ -67,6 +67,7 @@
 .eventBox figure .month {
   color: white;
   font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .eventBox figure .day {
