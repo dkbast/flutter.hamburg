@@ -2,7 +2,7 @@ footer .blueContainer {
   padding: 0 8rem;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background: var(--color-blue-3);
   color: white;
   position: relative;
@@ -17,4 +17,28 @@ footer .blueContainer h3 {
 footer .blueContainer p {
   width: 40rem;
   padding: 1rem;
+}
+
+footer .darkContainer {
+  padding: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #00102a;
+  color: white;
+}
+
+footer .darkContainer a {
+  color: white;
+  font-size: 1rem;
+}
+
+footer .darkContainer .withLove a {
+  font-size: 1.16666rem;
+  font-weight: 600;
+}
+
+footer .darkContainer .links {
+  display: flex;
+  gap: 2rem;
 }

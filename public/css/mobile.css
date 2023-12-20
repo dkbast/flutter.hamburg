@@ -84,4 +84,8 @@
     top: 0;
     right: 0;
   }
+  footer .darkContainer {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
