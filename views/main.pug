@@ -18,6 +18,9 @@ main
                 h6 Hours
                 h5 #{featured.hours}
             include share.pug
+            a(href=`${featured.link}`)
+                span View event details
+                img(src="images/external.svg" alt="external link")
     section.allEventsSection
         include allEvents.pug
     section.jobs

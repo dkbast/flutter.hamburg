@@ -70,3 +70,9 @@ main .contentSection .rightColumn .networks {
   display: flex;
   gap: 1.66rem;
 }
+
+main .contentSection .rightColumn a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

@@ -49,6 +49,7 @@ p {
 a {
   font-size: 1.5rem;
   line-height: 2rem;
+  color: var(--color-blue-1);
 }
 
 h3 {
