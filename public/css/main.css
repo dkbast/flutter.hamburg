@@ -3,13 +3,13 @@ main {
   overflow: hidden;
 }
 
-main .topSection {
+main section#top {
   position: relative;
   min-height: 70rem;
   margin: 0 8rem;
 }
 
-main .topSection h1 {
+main section#top h1 {
   width: 20rem;
   height: 7rem;
   display: flex;
@@ -21,7 +21,7 @@ main .topSection h1 {
   font-weight: 700;
 }
 
-main .topSection h2 {
+main section#top h2 {
   display: flex;
   align-items: center;
   height: 7.6rem;
@@ -29,12 +29,12 @@ main .topSection h2 {
   font-weight: 700;
 }
 
-main .topSection > p {
+main section#top > p {
   margin-top: 2.25rem;
   width: 40rem;
 }
 
-main .topSection .gradient {
+main section#top .gradient {
   width: 32.5rem;
   height: 43rem;
   transform: rotate(-112deg);
@@ -43,22 +43,22 @@ main .topSection .gradient {
   opacity: 0.2;
 }
 
-main .contentSection {
+main section#content {
   display: flex;
   justify-content: space-between;
   gap: 3rem;
   margin: 0 8rem;
 }
 
-main .contentSection .leftColumn {
+main section#content .leftColumn {
   max-width: 57rem;
 }
 
-main .contentSection p {
+main section#content p {
   margin-top: 1.5rem;
 }
 
-main .contentSection .rightColumn {
+main section#content .rightColumn {
   width: 32rem;
   margin-top: 3rem;
   display: flex;
@@ -66,12 +66,12 @@ main .contentSection .rightColumn {
   gap: 4rem;
 }
 
-main .contentSection .rightColumn .networks {
+main section#content .rightColumn .networks {
   display: flex;
   gap: 1.66rem;
 }
 
-main .contentSection .rightColumn a {
+main section#content .rightColumn a {
   display: flex;
   align-items: center;
   gap: 1rem;

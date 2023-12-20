@@ -1,10 +1,10 @@
-section.jobs {
+section#jobs {
   display: flex;
   gap: 5rem;
   padding: 8rem 8rem 0 8rem;
 }
 
-section.jobs > div {
+section#jobs > div {
   padding: 4rem;
   border-radius: 1.66666rem;
   background: linear-gradient(
@@ -17,15 +17,15 @@ section.jobs > div {
   gap: 3rem;
 }
 
-section.jobs > div h3 {
+section#jobs > div h3 {
   margin: 0;
 }
 
-section.jobs p {
+section#jobs p {
   font-size: 1.5rem;
 }
 
-section.jobs a {
+section#jobs a {
   width: fit-content;
   padding: 0.5rem 1rem;
 
