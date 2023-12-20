@@ -17,17 +17,9 @@ const validEvent = {
 };
 
 const withMalformedDateString = {
-  title: "",
-  summary: "Tarum parum ipsum dolor sit amet, consectet for bar et.",
-  description: [],
-  isFeatured: false,
-  status: "Free",
-  location: "",
-  link: "/",
+  ...validEvent,
   startDateISO: "wrong iso string",
   endDateISO: "wrong iso string",
-  hosts: [],
-  tags: [],
 };
 
 describe("addDateFields", () => {
