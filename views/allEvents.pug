@@ -1,9 +1,9 @@
 h3 All events
 ul
-   each event in other
+   each event in others
         li(class=event.inThePast ? "inThePast": "")
             a(href=`${event.link}`)
-                img(src="/images/events/event1.png")
+                img(src="images/events/event1.png")
                 .status #{event.status}
                 .info
                     figure

@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "nodemon server.ts",
-    "test": "tsx --test **/*.test.ts"
+    "test": "tsx --test **/*.test.ts",
+    "build": "npx ts-node build.ts"
   },
   "dependencies": {
     "@types/express": "^4.17.21",
