@@ -4,11 +4,6 @@
     background-position: top -22rem right 0 !important;
   }
 
-  h3 {
-    font-size: 2rem;
-    line-height: 2.4rem;
-  }
-
   a {
     font-size: 1.2rem;
   }
@@ -28,7 +23,7 @@
   }
 
   main {
-    padding: 0 !important;
+    padding: 0;
   }
   main .topSection {
     display: flex;
@@ -38,7 +33,7 @@
     margin: 0 0 5rem 0;
   }
   main .topSection h1 {
-    margin-top: 60rem;
+    margin-top: 58rem;
     width: 14rem;
     height: 4.2rem;
     font-size: 3.33333rem;
@@ -69,6 +64,24 @@
     margin: 0;
   }
   main .allEventsSection {
-    padding: 4rem 2rem;
+    display: none;
+  }
+
+  main section.jobs {
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  footer .blueContainer {
+    flex-direction: column;
+    padding: 4rem;
+    text-align: center;
+    gap: 2rem;
+  }
+  footer .blueContainer img {
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }

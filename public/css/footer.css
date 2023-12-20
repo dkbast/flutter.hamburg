@@ -5,10 +5,13 @@ footer .blueContainer {
   justify-content: space-around;
   background: var(--color-blue-3);
   color: white;
+  position: relative;
 }
 
 footer .blueContainer h3 {
-  width: 24rem;
+  width: 18rem;
+  line-height: 4rem;
+  margin: 2rem 0 0 0;
 }
 
 footer .blueContainer p {
