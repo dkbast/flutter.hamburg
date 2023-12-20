@@ -23,7 +23,7 @@
   border: 1px solid #adc6ff;
   border-radius: 0.3rem;
   background: #f0f5ff;
-  color: #2f54eb;
+  color: var(--color-blue-3);
   font-size: 1.33333rem;
 }
 

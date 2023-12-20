@@ -1,7 +1,7 @@
 section.jobs {
   display: flex;
   gap: 5rem;
-  padding: 8rem;
+  padding: 8rem 8rem 0 8rem;
 }
 
 section.jobs > div {

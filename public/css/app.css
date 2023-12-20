@@ -1,7 +1,5 @@
 .app {
   max-width: 128rem;
   margin: 0 auto;
-  background: url("../images/cranes.png") no-repeat white;
-  background-position: top 7.5rem right 0;
-  min-height: 200rem;
+  background: white url("../images/cranes.png") no-repeat top 7.5rem right 0;
 }

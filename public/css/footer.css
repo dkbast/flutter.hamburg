@@ -1,0 +1,17 @@
+footer .blueContainer {
+  padding: 0 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: var(--color-blue-3);
+  color: white;
+}
+
+footer .blueContainer h3 {
+  width: 24rem;
+}
+
+footer .blueContainer p {
+  width: 40rem;
+  padding: 1rem;
+}
