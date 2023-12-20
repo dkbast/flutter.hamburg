@@ -21,6 +21,10 @@ section#allEvents li {
   position: relative;
 }
 
+section#allEvents li a {
+  color: inherit;
+}
+
 section#allEvents li.inThePast {
   opacity: 0.5;
 }

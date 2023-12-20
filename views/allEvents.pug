@@ -2,12 +2,13 @@ h3 All events
 ul
    each event in other
         li(class=event.inThePast ? "inThePast": "")
-            img(src="/images/events/event1.png")
-            .status #{event.status}
-            .info
-                figure
-                    .month #{event.month}
-                    .day #{event.day}
-                .description
-                    h5 Monthly meetup
-                    p #{event.summary}
+            a(href=`${event.link}`)
+                img(src="/images/events/event1.png")
+                .status #{event.status}
+                .info
+                    figure
+                        .month #{event.month}
+                        .day #{event.day}
+                    .description
+                        h5 Monthly meetup
+                        p #{event.summary}
