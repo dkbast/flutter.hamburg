@@ -30,10 +30,10 @@
     flex-direction: column;
     align-items: center;
     padding: 0 2rem;
-    margin: 0 0 5rem 0;
+    margin: 0 0 1rem 0;
   }
   main section#top h1 {
-    margin-top: 58rem;
+    margin-top: 5rem;
     width: 14rem;
     height: 4.2rem;
     font-size: 3.33333rem;
@@ -51,6 +51,7 @@
     margin-top: -40rem;
   }
   main .eventBox {
+    position: initial;
     margin-top: 25rem !important;
     width: 100% !important;
     height: auto !important;
@@ -62,6 +63,13 @@
     flex-direction: column;
     padding: 0 2rem 2rem;
     margin: 0;
+  }
+  main section#content .rightColumn {
+    margin: 0;
+  }
+  main section#content .hosts,
+  main section#content .tags {
+    display: none;
   }
   main section#allEvents {
     display: none;
