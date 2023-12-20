@@ -1,19 +1,19 @@
 @import "vars.css";
 
-.allEventsSection {
+section#allEvents {
   background: #f8f8fa;
   padding: 4rem 0 7rem 24rem;
   margin-top: 8rem;
   width: 200%;
 }
 
-.allEventsSection ul {
+section#allEvents ul {
   display: flex;
   gap: 3rem;
   margin-top: 5rem;
 }
 
-.allEventsSection li {
+section#allEvents li {
   background: white;
   border-radius: 0.66666rem;
   width: 29rem;
@@ -21,11 +21,11 @@
   position: relative;
 }
 
-.allEventsSection li.inThePast {
+section#allEvents li.inThePast {
   opacity: 0.5;
 }
 
-.allEventsSection li .status {
+section#allEvents li .status {
   position: absolute;
   top: 1rem;
   left: 1rem;
@@ -39,11 +39,11 @@
   font-size: 1.33333rem;
 }
 
-.allEventsSection .info {
+section#allEvents .info {
   display: flex;
 }
 
-.allEventsSection .info figure {
+section#allEvents .info figure {
   width: 9rem;
   height: 9rem;
   aspect-ratio: 1;
@@ -56,20 +56,20 @@
   border-radius: 0.833rem;
 }
 
-.allEventsSection .info figure .month {
+section#allEvents .info figure .month {
   font-size: 1.16666rem;
   line-height: 1.75rem;
   margin-top: 1rem;
   text-transform: uppercase;
 }
 
-.allEventsSection .info figure .day {
+section#allEvents .info figure .day {
   font-size: 2.33333rem;
   font-weight: 600;
   line-height: 3.5rem;
 }
 
-.allEventsSection .info .description {
+section#allEvents .info .description {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,11 +77,11 @@
   padding-right: 2rem;
 }
 
-.allEventsSection .info .description h5 {
+section#allEvents .info .description h5 {
   line-height: 2.5rem;
 }
 
-.allEventsSection .info .description p {
+section#allEvents .info .description p {
   font-size: 1.16666rem;
   line-height: 1.3rem;
   font-weight: 400;

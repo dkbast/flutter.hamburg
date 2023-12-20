@@ -31,13 +31,13 @@ header .rightColumn .events {
   display: flex;
   gap: 2.66rem;
 }
-header .rightColumn .events > div {
+header .rightColumn .events a {
+  color: inherit;
+  font-size: 1.33333rem;
+}
+header .rightColumn .events .selected {
   display: flex;
   align-items: center;
-  height: 100%;
-  box-sizing: border-box;
-}
-header .rightColumn .events > div.selected {
   color: #2d3648;
   font-weight: 700;
   border-bottom: 3px solid #00d5ff;

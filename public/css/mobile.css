@@ -63,7 +63,7 @@
     padding: 0 2rem 2rem;
     margin: 0;
   }
-  main .allEventsSection {
+  main section#allEvents {
     display: none;
   }
 
