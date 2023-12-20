@@ -3,6 +3,7 @@ ul
    each event in other
         li(class=event.inThePast ? "inThePast": "")
             img(src="/images/events/event1.png")
+            .status #{event.status}
             .info
                 figure
                     .month #{event.month}
