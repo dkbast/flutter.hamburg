@@ -15,7 +15,7 @@ main .topSection h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #008ef0;
+  background: var(--color-blue-2);
   color: white;
   font-size: 5rem;
   font-weight: 700;
