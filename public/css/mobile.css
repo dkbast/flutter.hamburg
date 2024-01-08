@@ -1,6 +1,5 @@
 @media only screen and (max-width: 52rem) {
   .app {
-    width: 100% !important;
     background-position: top -22rem right 0 !important;
   }
 
@@ -91,6 +90,9 @@
     position: absolute;
     top: 0;
     right: 0;
+  }
+  footer .blueContainer p {
+    width: auto;
   }
   footer .darkContainer {
     flex-direction: column;
